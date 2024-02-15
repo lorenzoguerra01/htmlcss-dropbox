@@ -48,19 +48,30 @@ nav li {
     padding: 0 20px;
     font-size: small;
 }
+nav img {
+    width: 80%;
+}
 #jumbo {
     background-color: var(--color-light-blue);
 }
 #jumbo h1 {
     font-size: 60px;
     font-weight: 800;
+    padding-top: 30px;
 }
 #jumbo .img{
     width: 70%;
-    position: relative; 
+    position: relative;
+    top: 50px;
 }
-.list {
+#jumbo .list {
     width: 30%;
+    padding-top: 50px;
+    padding-bottom: 20px; 
+    font-size: small;
+}
+.fa-arrow-down {
+    font-size: 40px;
 }
 /* main  */
 
