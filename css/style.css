@@ -130,8 +130,9 @@ input[type='radio']:checked {
 }
 /* sec 2  */
 .card {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     border: 1px solid lightgrey;
+
 }
 
 .top-card {
@@ -140,7 +141,6 @@ input[type='radio']:checked {
     text-align: center;
 }
 .sec-2 {
-    gap: 20px;
     font-weight: 500;
 }
 
@@ -215,6 +215,12 @@ ul.indent {
     font-size: larger;
     border: 1px solid var(--color-black);
 }
+
+/* sec 5  */
+.sec-5 .card {
+    width: calc(100% / 3 - 20px);
+    border: none;
+}
 /* footer  */
 
 /* utility  */
@@ -228,7 +234,9 @@ ul.indent {
     max-width: 700px;
     margin-top: 40px;
 }
-
+.gap {
+    gap: 20px;
+}
 .btn {
     padding: 6px 12px;
     background-color: var(--color-dark-blue);
