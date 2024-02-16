@@ -273,8 +273,88 @@ ul.indent {
 .bg-center img {
     width: 60%;
 }
+
+/* sec 8  */
+.sec-8 {
+    background-color: var(--color-light-blue);
+    margin-top: -40px;
+}
+.sec-8 h3 {
+    color: #61082b;
+    margin-bottom: +50px;
+}
+.sec-8 .btn {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(0, -100%);
+}
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+    position: relative;
+}
+
+/* sec 9  */
+summary {
+    font-size: larger;
+    font-weight: 700;
+    padding: 30px 0;
+    border-top: 1px solid var(--color-black);
+}
+.sec-9>div:last-child {
+    border-bottom: 1px solid var(--color-black);
+    margin-bottom: 100px;
+}
+details div {
+    font-size: larger;
+    padding-left: 20px;
+    padding-bottom: 10px
+}
+details > summary {
+  list-style-type: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > summary::before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+  float: right;
+}
+
+details[open] > summary::before {
+    transform: rotate(180deg);
+    font-weight: 900;
+  }
 /* footer  */
 
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding-top: 60px;
+}
+footer li {
+    line-height: 30px;
+}
+.language {
+    word-spacing: 3px;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 30px 0;
+    border-top: 1px solid var(--color-white);
+}
 /* utility  */
 .container {
     margin: 0 auto;
